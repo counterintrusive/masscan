@@ -120,7 +120,7 @@ http_change_field(unsigned char **inout_header, unsigned header_length,
  ***************************************************************************/
 static const char
 http_hello[] =      "GET / HTTP/1.0\r\n"
-                    "User-Agent: masscan/1.0 (https://github.com/robertdavidgraham/masscan)\r\n"
+                    "User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:40.0) Gecko/20100101 Firefox/40.1)\r\n"
                     "Accept: */*\r\n"
                     //"Connection: Keep-Alive\r\n"
                     //"Content-Length: 0\r\n"
